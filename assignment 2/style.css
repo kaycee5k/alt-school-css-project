@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+.section2 {
+  background-color: #666666;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.container2 {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.headline h3 {
+  font-family: lato, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.headline p {
+  font-family: lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 415;
+  height: 60;
+}
+
+.headline span {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.subheadline {
+  font-family: lato, sans-serif;
+  font-size: 20px;
+  color: #000000;
+  width: 415;
+  height: 60;
+}
+
+.content-block {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.content-title {
+  position: absolute;
+  top: 462;
+  left: 220px;
+  background-color: #ffcc00;
+  color: black;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: lato, sans-serif;
+  padding: 10px 15px;
+  border-bottom: 6px solid #cc9900;
+}
+
+.content-text {
+  font-family: lato, sans-serif;
+  padding: 90px 15px 15px 15px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+/* tablet */
+@media screen and (max-width: 1115px) {
+  .container2 {
+    max-width: 1115px;
+    padding: 20px 0px 20px 0px;
+  }
+  .content-title {
+    position: absolute;
+    top: 462;
+    left: 0px;
+    background-color: #ffcc00;
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: lato, sans-serif;
+    padding: 10px 15px;
+    border-bottom: 6px solid #cc9900;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  .container2 {
+    max-width: 480px;
+    padding: 20px 0px 20px 0px;
+  }
+  .content-title {
+    width: 318px;
+    height: 82px;
+    position: absolute;
+    top: 462;
+    left: 0px;
+    background-color: #ffcc00;
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: lato, sans-serif;
+    padding: 10px 15px;
+    border-bottom: 6px solid #cc9900;
+    line-height: 28.8px;
+  }
+  .content-text {
+    font-family: lato, sans-serif;
+    padding: 150px 15px 15px 15px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+}

@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assignment 4/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="section1">
+        <img src="../assignment 4/image/logo.png" alt="Logo" />
+        <h2 class="heading">For Individuals</h2>
+        <p class="subheading">
+          Start benefiting from the wellness experience. For<br />
+          companies looking on increasing productivity, and improving<br />
+          organization wellness.
+        </p>
+      </section>
+      <section class="section2">
+        <form action="submit">
+          <div class="form-group">
+            <div class="group-item">
+                <label for="text">First Name</label>
+                <input type="text" placeholder="Tolu" />
+            </div>
+            <div class="group-item">
+                <label for="text">Last Name</label>
+                <input type="text" /><br />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="group-item">
+                <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="" disabled selected>Select here</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            </div>
+            <div class="group-item">
+                <label for="date">Date Of Birth</label>
+                <input type="date" placeholder="Select here" /><br />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="group-item">
+                <label for="weight">Weight (KG)</label>
+                <input type="text" placeholder="Enter Weight" />
+            </div>
+            <div class="group-item">
+                <label for="height">Height (CM)</label>
+                <input type="text" placeholder="Enter Height" /><br />
+            </div>
+          </div>
+          <div class="group-item">
+            <label for="activity">Activity level</label>
+            <select name="activity" id="activity" class="form-input">
+              <option value="" disabled selected>Select here</option>
+              <option value="level 1">level 1</option>
+              <option value="level 2">level 2</option>
+              <option value="level 3">level 3</option></select
+            ><br />
+          </div>
+          <div class="group-item">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              class="form-input"
+            /><br />
+          </div>
+
+          <button class="Register-btn">Register</button><br />
+          <p class="Register">
+            By clicking Register, you agree to our <span>Terms of Use</span> and
+            our <span>Privacy Policy</span>
+          </p>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

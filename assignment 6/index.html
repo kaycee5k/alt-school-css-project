@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="../assignment 6/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="../assignment 6/image/wppusher-logo copy.png"
+          alt="logo"
+          class="logo"
+        />
+      </div>
+      <nav>
+        <ul class="nav-items">
+          <li>download</li>
+          <li>pricing</li>
+          <li>learn more</li>
+          <li>help</li>
+        </ul>
+        <div>
+          <button class="nav-btn">Account</button>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="checkout-form">
+        <h2>Checkout</h2>
+
+        <!-- Basic Information -->
+        <div class="section1">
+          <div class="section1-header">
+            <span class="circle">1</span>
+            <h3>Your Basic Information</h3>
+          </div>
+          <div class="input-group">
+            <div>
+              <label>First Name</label>
+              <input type="text" placeholder="Jane" />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe" />
+            </div>
+          </div>
+          <label>Email</label><br>
+          <input
+            type="email"
+            class="full-width"
+            placeholder="janedoe@example.com"
+          />
+        </div>
+
+        <!-- Payment Information -->
+        <div class="section2">
+          <div class="section2-header">
+            <span class="circle">2</span>
+            <h3>Your Payment Information</h3>
+          </div>
+          <label>Credit Card</label>
+          <div class="card-input">
+            <input type="text" placeholder="Card Number" class="card-number">
+            <input type="text" placeholder="MM / YY" class="card-month">
+            <input type="text" placeholder="CVV" class="card-cvv">
+          </div>
+        </div>
+
+        <!-- Buy Button -->
+        <button class="buy-btn">Buy WP Pusher</button>
+
+        <!-- Help Section -->
+        <p class="help-text">
+          <span class="help-icon">?</span> Need any help? Don't hesitate to
+          <a href="#">contact</a> <br />support!
+        </p>
+        <div class="stripe-badge">Powered by Stripe</div>
+      </div>
+
+      <!-- Pricing Section -->
+      <div class="pricing-section">
+        <h3>Freelancer</h3>
+        <p class="price">$<span>99</span> / year</p>
+        <p class="sub-text">
+          Automatically renews<br />
+          after 1 year
+        </p>
+        <ul class="features">
+          <li>Use on 5 client sites</li>
+          <li>Private repositories</li>
+          <li>Email support</li>
+        </ul>
+        <p class="agency-plan">
+          Need 20 client sites? <a href="#">Switch to the Agency plan.</a>
+        </p>
+        <p class="testimonial">
+          FTP is horrible to deal with. <span>WP Pusher solves</span> that
+          issue, and the customer support is awesome!
+        </p>
+        <div class="reviewer">
+          <img src="../assignment 6/image/Bitmap.png" alt="Reviewer Image" />
+          <span>Kirk Beard</span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <p>© 2018 WP Pusher IVS - <a href="#">Terms of Service</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
